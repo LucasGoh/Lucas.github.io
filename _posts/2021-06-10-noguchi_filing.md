@@ -1,6 +1,6 @@
 ---
-title: 물건정리 - Noguchi filing system
-tag: entertainment
+title: 물건정리 방법 - Noguchi filing system
+tag: inspiration
 ---
 
 
@@ -23,7 +23,7 @@ tag: entertainment
 
 이러면 자주 사용하는 문건들은 왼쪽에 놓이게 되고 안 쓰게 되는 것들은 점차 오른쪽으로 가게 된다.
 
-![download](/Users/gaozhenan/Documents/GitHub/LucasGoh.github.io/assets/images/download.png)
+<img src="/assets/images/download.png" />
 
 효율적이지는 않지만 최상의 방법인것 같다. **대부분의 물건을 정열해 놓지 않는것이 모든걸 정열하는것보다 더 효율적이다.**
 
