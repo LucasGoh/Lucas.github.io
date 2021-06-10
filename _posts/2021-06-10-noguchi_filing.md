@@ -1,5 +1,5 @@
 ---
-title: 물건정리 방법 - Noguchi filing system
+title: 물건정리 방법 - Noguchi filing system && Marie Kondo
 tag: inspiration
 ---
 
@@ -33,6 +33,8 @@ tag: inspiration
 
 ### marie kondo
 
+일본과 미국에서 핫한 집안 정리하는 사람. 옷도 있지만 찾으면 다른것도 많은것 같다.
+
 이 방법을 사용하면 옷을 접어서 세울수 있다. 그래서 서랍에 질서 있게 정리할수 있다.
 
 <img src="/assets/images/standing-hip-sweater.jpeg" >
@@ -41,5 +43,5 @@ tag: inspiration
 
 
 
-옷들을 접는 방법을 찍은 유튜브 동영상
+옷 접는 방법
 {% include video id="IjkmqbJTLBM" provider="youtube" %}
