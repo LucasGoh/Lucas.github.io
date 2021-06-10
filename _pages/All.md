@@ -1,6 +1,6 @@
 ---
 title: "Posts by Tag"
-permalink: /hobby/
+permalink: /All/
 layout: tags
 tag: test
 author_profile: true
