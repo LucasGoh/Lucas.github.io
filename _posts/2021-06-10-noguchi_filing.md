@@ -41,6 +41,5 @@ tag: inspiration
 
 
 
-옷들을 접는 방법을 찍은 유튜브 동영상은 링크는 [여기](https://www.youtube.com/watch?v=IjkmqbJTLBM).
-
-유튜브 접속 못하면 baidu 검색하세요.
+옷들을 접는 방법을 찍은 유튜브 동영상
+{% include video id="IjkmqbJTLBM" provider="youtube" %}
