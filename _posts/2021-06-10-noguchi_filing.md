@@ -1,13 +1,12 @@
 ---
 title: 물건정리 방법 - Noguchi filing system && Marie Kondo
 tag: inspiration
+toc: true
 ---
 
 
 
-#                            물건정리
-
-### Noguchi filing system
+# Noguchi filing system
 
 예전에 옷장, 서랍, 문건들을 정리할때는 비슷한것들끼리 모아 놓았다. 사용한 후에 원자리로 가져다 놓으면 문제가 되지 않는데 나 처럼 ADHD , 이걸 하다가 원자리에 두지 않고 저걸 하고 이런 사람한테는 힘들다.  정리를 잘해 놓아도 금방 지저분해 진다. 
 
@@ -31,7 +30,7 @@ tag: inspiration
 
 **단점**: 많은 물건들중에서 빠르게 찾으려면 이 시스템은 적합하지 않다.
 
-### marie kondo
+# marie kondo
 
 일본과 미국에서 핫한 집안 정리하는 사람. 옷도 있지만 찾으면 다른것도 많은것 같다.
 
