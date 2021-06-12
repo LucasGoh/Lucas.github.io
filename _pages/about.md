@@ -1,6 +1,7 @@
 ---
 title: "Posts by Tag"
-permalink: /about%20me/
+permalink: /about/
+layout: single
 author_profile: true
 ---
 
