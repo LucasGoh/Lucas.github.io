@@ -1,6 +1,7 @@
 ---
 title: 주식 초보 
 tag: Trading
+toc: true
 ---
 
 # 주식 초보
