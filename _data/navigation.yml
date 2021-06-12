@@ -5,7 +5,7 @@ main:
   - title: "tags"
     url: /All/
   - title: "about me"
-    url: /about me/
+    url: /about/
   #- title:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
