@@ -4,7 +4,7 @@ main:
   # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "tags"
     url: /All/
-  - title: "about me"
+  - title: "about"
     url: /about/
   #- title:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
