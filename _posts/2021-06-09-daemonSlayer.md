@@ -5,7 +5,7 @@ toc: true
 ---
 
 
-## 귀멸의 칼날 ( 鬼灭之刃)
+# 귀멸의 칼날 ( 鬼灭之刃)
 
 <img src="/assets/images/zc6p2rxh2ejvbrtrl0rg.jpeg">
 
