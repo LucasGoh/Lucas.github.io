@@ -1,6 +1,6 @@
 ---
 title: "Posts by Tag"
-permalink: /aboutme/
+permalink: /about%20me/
 toc: true
 author_profile: true
 ---
