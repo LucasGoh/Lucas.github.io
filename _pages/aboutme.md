@@ -1,7 +1,6 @@
 ---
 title: "Posts by Tag"
 permalink: /about%20me/
-layout: wide
 author_profile: true
 ---
 
