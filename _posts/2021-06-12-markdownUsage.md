@@ -20,5 +20,5 @@ Image: \<img src="/assets/images/zc6p2rxh2ejvbrtrl0rg.jpeg"\>
 
 Link: \[sdfsdfsdf\]\(https::\)
 
-youtube link: \{% include video id="XsxDH4HcOWA" provider="youtube" % \}
+youtube link: % include video id="XsxDH4HcOWA" provider="youtube" % 
 
