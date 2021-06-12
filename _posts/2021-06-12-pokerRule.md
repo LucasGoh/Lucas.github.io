@@ -16,7 +16,7 @@ River:
 
 ---
 
-<img src="/assets/images/Screen Shot 2021-05-15 at 11.51.56 AM">
+<img src="/assets/images/Screen Shot 2021-05-15 at 11.51.56 AM.png">
 
 <img src="/assets/images/IMG_0364.PNG">
 
