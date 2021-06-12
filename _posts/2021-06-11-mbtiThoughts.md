@@ -1,6 +1,6 @@
 ---
 title: About mbti(성격테스트)
-tag: inspiration
+tag: philosophy
 ---
 
 
