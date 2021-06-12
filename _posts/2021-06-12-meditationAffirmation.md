@@ -1,6 +1,7 @@
 ---
 title: 명상 && self-affirmation 
 tag: Psychology
+toc: true
 ---
 
 # 명상(mindful meditation)
