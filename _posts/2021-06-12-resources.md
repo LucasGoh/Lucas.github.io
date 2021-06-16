@@ -38,3 +38,11 @@ Vulnarability :[exploit-db](https://www.exploit-db.com/)  [nvd.nist.gov](https:/
 
 [sailor moon](https://sailormoontv.com/2018/12/eng-dub-s1e3-slim-city/)
 
+# Poker
+
+Strategy: [Poker Listings](https://www.pokerlistings.com/)
+
+Calculate equity: [poker stove download](https://upswingpoker.com/pokerstove-review-download/)
+
+calculate range( active in poker forums like dragthebar.com and find spots to work these types of problems out. ): https://www.dragthebar.com/
+
