@@ -201,3 +201,202 @@ Ex: About 75% of the time we have 66% equity, and 25% of the time we have 9% equ
 
 4. The mental slider method finding 3/4 of the way from 9 to 66.
 
+---
+
+### which bucks
+
+Real-bucks: what we won or lost in a given hand
+
+Sklansky-bucks: equity(pot) + (1-equity)(-shove stack)=EV
+
+G-bucks: against villain's range our equity
+
+Reciprocal-bucks: our strategy as opposed to our opponent's strategy
+
+# Aggression
+
+### Bluffing
+
+| ratio                 | Cosndering Bluffing | Considering Calling | Must be Good> |
+| --------------------- | ------------------- | ------------------- | ------------- |
+| Risking x to win 5x   | Pot-Size Raise      |                     | 67%           |
+| Risking x to win 8x   | 1/2 Pot-Size Raise  |                     | 55%           |
+| Risking x to win x    | Pot Bet             | Never Happens       | 50%           |
+| Risking x to win 1.5x | 2/3 Pot Bet         | Call 2x Pot         | 40%           |
+| Risking x to win 2x   | 1/2 Pot Bet         | Call Pot            | 33%           |
+| Risking x to win 3x   | 1/3 Pot Bet         | Call 1/2 Pot        | 25%           |
+
+Making a pot-size raise is much different than making a pot-size bet because you have to put a lot more money in the pot to offer your opponent.
+
+As we lower our bet size, his calling range increases, as we raise our bet size, is calling range decreases.
+
+**how to calculate**:  (fold combinations)/ (fold + call combinations) > must be good 
+
+## semi-bluffing
+
+Bluffing and semi-bluffing bring us into the world of **fold equity**. Fold equity is a term we use to describe what we gain when our opponent folds.
+
+**Semi-bluffing** is when you're betting with a hand you doubt is good right now but has a good chance to improve on a later street. Because of this, you cannot semi-bluff on the river.
+
+Fold%(pot won when he folds) + call%(amount we win/lose when he calls)
+
+- The size of the pot in relation to the money left. The larger the stack to pot ratio, the more often he must fold. This is because we're proportionally risking more.
+
+**shortcut**
+
+1. Total pot size times our equity
+2. Subtract the result from step one from our bet
+3. Examine the reward(result from 2) to risk ratio.
+
+## Value-Betting
+
+Value-Betting: the term is reserved for betting when we believe we have the best hand. We're trying to extract as much value as we can when we actually have the goods.
+
+Ex: beat QT, AJ 20com,lose QJ J9 15com. villain call 20, is a $20 value bet profitable?
+
+(rate of winning range)x(money win) - (lose range)(-money win)=EV
+
+0.57x($20)-0.43x(-$20)=EV
+
+when bluffing: bluffing range x all money lose (cause I will fold, calling with more than 50% worse hand)
+
+# At the Table
+
+## A Bit of Memory
+
+Unpaired hands in the exmaples are all offsuit holdings. 
+
+When you hold a suited hand instead of an offsuit hand, your preflop equity generally increase by about 4%.
+
+Table. All-in preflop equity for hand groups.
+
+| Situation                   | Exmaple    | Equities   |
+| --------------------------- | ---------- | ---------- |
+| Overcard VS 2 middle cards  | A8o vs QJo | 57% vs 43% |
+| Overcard VS 1 middle cards  | ATo vs Q7o | 65% vs 35% |
+| 2 overcards vs 2 undercards | 55 vs AKo  | 55% vs 45% |
+| Pair VS 1 overcard          | 88 vs A2o  | 70% vs 30% |
+| Pair VS 2 undercards        | KK vs 87o  | 82% vs 18% |
+| Pair vs undercard           | AA vs AKo  | 93% vs 7%  |
+| Overpair vs Underpair       | AA vs 55   | 81% vs 19% |
+
+Another good thing to commit to memory is strong preflop hands compared to strong preflop ranges.
+
+Table. **Writer's** All-in preflop equity with strong hands verses strong ranges.
+
+| **Villain's Range | Hero's Holding | Hero's Equity** |
+| ----------------- | -------------- | --------------- |
+| JJ+, AK           | QQ             | 47%             |
+| JJ+, AK           | AKs            | 43%             |
+| JJ+, AK           | AKo            | 40%             |
+| JJ+, AK           | JJ             | 38%             |
+| JJ+, AK           | TT             | 34%             |
+| TT+, AQ           | QQ             | 55%             |
+| TT+, AQ           | AKs            | 52%             |
+| TT+, AQ           | AKo            | 49%             |
+| TT+, AQ           | JJ             | 47%             |
+| TT+, AQ           | TT             | 40%             |
+| TT+, AQ           | AQs            | 38%             |
+| TT+, AQ           | 99             | 37%             |
+| TT+, AQ           | AQo            | 34%             |
+
+Table. Hole cards flopping hands
+
+| Hole cards      | Flop                     | Percentage |
+| --------------- | ------------------------ | ---------- |
+| Pocket pair     | set or better            | 12%        |
+| Suited unpaired | Flush                    | 1%         |
+| Suited unpaired | Four-Flush               | 11%        |
+| Suited unpaired | Backdoor flush draw      | 42%        |
+| Unpaired        | pair                     | 27%        |
+| Unpaired        | Two pair                 | 2%         |
+| Unpaired        | Trips                    | 1%         |
+| **Connectors**  | Straight                 | 1%         |
+| Connectors      | Open-ended straight draw | 10%        |
+| 1-Grapper       | Straight                 | 1%         |
+| 1-Grapper       | Open-ended straight draw | 8%         |
+
+Table. Clashing flops. The equities given are assuming you will be seeing both the turn and the river.
+
+| Situation                      | Example                           | First Hand's Equity |
+| ------------------------------ | --------------------------------- | ------------------- |
+| Flush draw vs. set             | AsJs vs 8d8h<br />Board: 2s3d8s   | 26%                 |
+| Overpair vs pair+flush draw    | AdAs vs. 5h7h<br />BoardZ: Jh2h7c | 50%                 |
+| Pair vs. flush draw + overcard | AcJc vs. KhKd<br />Board: 2c7cJh  | 52%                 |
+
+These are some of the more common situations I commit to memory. Again, you may discover you’re thinking heavily about a certain situation frequently while playing. If that’s the case, be sure to analyze that situation and commit it to memory so you’re not spending energy on it at the poker table.
+
+## Chunking
+
+Beginning players often **slowplay** a big hand on the flop and/or turn only to discover they now have a tiny pot on the river and a bunch of money behind. Out of desperation to get paid off with their big hand, they often shove all the money in the middle,making a massive **overbet**. Learning how to chunk your stack in order to comfortably get all-in is a very important no-limit skill. It's betting with purpose. This math is a little different than what we've covered so far as it's not counting combinations or estimating equity. We're simply figuring out how to divide our stack up into chunks. 
+
+Danger of slowplay: Seriously reduce exponential growth of the pot over multiple streets.
+
+How might we create smaller SPRs?  By raising larger preflop.
+
+my recommendation for many beginners is to start with a **40x** stack. 
+
+Table. Chuking options with common SPRs(stack to pot ratio)
+
+| SPR  | Chunking Option              |
+| ---- | ---------------------------- |
+| 13   | Pot, pot, pot                |
+| 9    | Pot, 3/4 pot, 3/4 pot        |
+| 7    | 3/4 pot, 3/4 pot, 3/4pot     |
+| 5.5  | Pot, half-pot, half-pot      |
+| 3.5  | Half-pot, half-pot, half-pot |
+
+## Set-Mining
+
+Sets are one of the biggest money makers in any poker player’s database of hands. 
+
+Many players have gotten into the habit of calling with any pocket pair and then simply folding if they do not flop a set. However, if they do flop a set, they do their best to get all the money in the middle. Let’s begin approaching set-mining through the most optimistic eyes.
+
+## How Much to Bet?
+
+Now we’re going to look at sizing our bets given our opponent’s range when we’re on the flop and turn. 
+
+beginners default to a 2/3 pot bet
+
+Thinking about maximizing value from your opponent’s range always takes precedence over making bets to chunk in your stack. 
+
+## Balanced Play
+
+balance = optimal play = game theory optimal play = balanced paly
+
+Exploitive play is a more responsive form of poker::
+
+•If he folds too much, we bluff more.
+
+• If he calls too much, we bluff less.
+
+• If he bluffs too much, we call more.
+
+• If he bluffs too little, we call less. 
+
+
+
+Playing a maximally exploitive strategy has us making drastic changes in our play. 
+
+- opponent has only bluffs, and bluffs 33% of time; then we should call 100% of the time
+- we know our opponent is never bluffing. ; then we obvisouly never call.
+- if our opponent bluffs 50% (or 34% or 100%) of the time? ; then call 100% of the time 
+- if our opponents only bluffing 25% of the time; then we should always fold.
+
+so, you see that a maximally exploitive strategy has us making very dramatic swings in our decision frequencies. We go from always calling to never caling and vice versa.
+
+---
+
+developing a perfectly balanced game of poker is not a possibility. 
+
+exploitive play is when we're playing against opponents who have a static strategy or predictably changing strategy
+
+ There are only two practical reasons why we would want to try to play a balanced game. One would be that we have no information on our opponent.The second reason to play a balanced game is because our opponent is better at exploitive play than we are. 
+
+
+
+By the time a struggling small-stakes player can begin developing a balanced game, they’d be better off exploiting all the bad players.
+
+
+
+**Value**:: grow poker theory and come up with new ideas.
